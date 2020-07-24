@@ -1,0 +1,47 @@
+print("Let's practice everything.")
+print('You\'d need to know \'bout escapes with \\ that do:')
+print('\n newlines and \t tabs.')
+
+poem = """
+\tThe lovely world
+with logic so firmly planted
+cannot discern \ the needs of love
+nor comprehend passion from intuition
+and requires an explantion
+\n\t\twhere ther is none.
+"""
+
+print("--------------")
+print(poem)
+print("--------------")
+
+
+five = 10 - 2 + 3 - 6
+print (f"This should be five: {five}.")
+
+def secret_formula(started):
+    jelly_beans = started * 500
+    jars = jelly_beans / 1000
+    crates = jars / 100
+    return jelly_beans, jars, crates
+
+
+start_point = 1000
+beans, jars, crates = secret_formula(start_point)
+
+print(f"\nExem 1st, started with {start_point} .")
+# remember that this is another way to fromat a string
+print("With a startitng point of: {}". format(start_point))
+# it's just like with an fucking string
+print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
+
+print(f"\nStartign point value {start_point}.\n")
+
+#start_point = 5000
+#start_point = start_point / 10
+
+print(f"Exem 2nd started with {start_point}")
+#print("Who can also do that this way:")
+formula = secret_formula(start_point)
+#this is an easy way to apply a list to format string.
+print("We'd have {} beans, {} jars, and {} crates.".format(*formula))

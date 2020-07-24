@@ -1,0 +1,4 @@
+1. impotuje se skripta i dokument "scripts" i "file name".
+2. nazivi>" ex15.py" i  "ex15_sample.txt"
+3. txt = open(filename) definise se promjenljiva koja otvara txt dokument
+4. print=(txt.read()) poziva funkciju za prikaz sadrzaja dokumenta.
