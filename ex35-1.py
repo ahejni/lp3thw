@@ -74,4 +74,4 @@ def start():
         dead("You stumble around the room until you strave.")
 
 
-start()
+start() #startuj prgoram prema definisan u funkciji def start():
