@@ -3,8 +3,8 @@ Study Drills
 2. Fix all of your mistakes, including spelling mistakes.
 3. Write comments for the functions you do not understand.
 4. Add more to the game. What can you do to both simplify and expand it?
-5.The gold_room has a weird way of getting you to type a number. What are all the bugs in this
-  way of doing it? Can you make it better than what I’ve written? Look at how int() works for clues.
+5. The gold_room has a weird way of getting you to type a number. What are all the bugs in this
+   way of doing it? Can you make it better than what I’ve written? Look at how int() works for clues.
 
 Common Student Questions
 

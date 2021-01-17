@@ -1,3 +1,9 @@
+# Create comments in this source code.
+# Draw a map of the game and how you flow through it.
+# Sort flow  by asc.
+
+
+
 from sys import exit
 
 def gold_room():
