@@ -35,7 +35,7 @@ def bear_room():
 
         #if choice == "take honey":
         if choice == '1':
-            print("You want take honey and you tount bear.")
+            print("You want take honey.")
             dead("The bear looks at you than slaps your face off and his pissed off and chews your leg off.")
 
         elif choice == "2" and not bear_moved:
@@ -45,13 +45,17 @@ def bear_room():
             print("You are again taunt bear and his pissed off. His take attack you!")
             print("Press \"A\"")
             choice = input("> ")
-            print("Slap bear with lowkick in his leg and second time middle kick in his torso strong . Now bear is down.")
-            bear_moved = False
-            print("Open the door, press \"D\"")
-            choice = input("> ")
-            if choice == "D" and not bear_moved:
-                print("Now you can get in gold room")
-                gold_room()
+            if choice == "A" and bear_moved:
+                print("Slap bear with lowkick in his leg and second time middle kick in his torso strong . Now bear is down.")
+                bear_moved = False
+                print("Open the door, press \"D\"")
+                choice = input("> ")
+                if choice == "D" and not bear_moved:
+                    print("Now you can get in gold room")
+                    gold_room()
+            else:
+                print("You are fresh meet of Bear!")
+                exit(0)
         else:
             print("I got no idea what that means")
 
