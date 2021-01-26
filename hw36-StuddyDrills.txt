@@ -25,4 +25,6 @@ The best way to work on a piece of software is in small chunks like this
 
 This process will help you work on software in a methodical nand consistent manner. As you work, update your list by removing tasks you don't really need and adding ones you do.
 
-Zedd. 
+
+Chapter 36 / Book:
+"The Learn Python3 The Hard Way" by Zedd. 
